@@ -1,0 +1,47 @@
+<% if (current_path !== '/') { %>
+  <section class="section main article">
+<% } else { %>
+  <section class="section main homepage">
+<% } %>
+    <div class="container">
+
+<div class="columns">
+  <div class="column is-8">
+    <% if (!isHomepage) { %>
+      <% include breadcrumb %>
+      <% include pre-next %>
+    <% } %>
+    <article class="content is-size-5-widescreen">
+      <% if (isHomepage) { %>
+        <h1 class="title"><%= site %></h1>
+      <% } else { %>
+        <h1 class="title"><%= page_title %></h1>
+      <% } %>
+      <div class="page-meta">
+        <p>网道（WangDoc.com），互联网文档计划</p>
+      </div>
+      <%= content %>
+    </article>
+    <% include pre-next %>
+    <div class="page-info is-size-5-widescreen">
+      <p>本教程采用<a href="https://creativecommons.org/licenses/by-sa/3.0/deed.zh" target="_blank">知识共享 署名-相同方式共享 3.0协议</a>。</p>
+      <p>分享本文 <span class="social-share"></span></p>
+    </div>
+  </div>
+
+  <div class="column is-3 is-offset-1">
+    <% include chapters %>
+  </div>
+</div>
+
+<% if (typeof hasComments === 'undefined' || !hasComments) { %>
+<% } else { %>
+<div class="columns">
+  <div class="column is-8">
+    <div id="disqus_thread"></div>
+  </div>
+</div>
+<% } %>
+
+    </div>
+  </section>
