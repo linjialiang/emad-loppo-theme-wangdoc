@@ -1,7 +1,7 @@
 {
   "name": "emad-loppo-theme-wangdoc",
-  "version": "1.0.1",
-  "description": "a theme of Loppo used by Wangdoc",
+  "version": "1.0.2",
+  "description": "a theme of emad-Loppo used by Wangdoc",
   "main": "index.js",
   "scripts": {
     "postversion": "npm run update-bulma",
