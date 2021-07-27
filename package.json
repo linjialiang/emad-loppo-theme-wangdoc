@@ -1,6 +1,6 @@
 {
   "name": "emad-loppo-theme-wangdoc",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "a theme of emad-Loppo used by Wangdoc",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/linjialiang/emad-loppo-theme-wangdoc",
   "repository": {
     "type": "git",
-    "url": "https://github.com/linjialiang/emad-loppo-theme-wangdoc.git"
+    "url": "git+https://github.com/linjialiang/emad-loppo-theme-wangdoc.git"
   },
   "author": "Lin Jialiang",
   "license": "MIT",
@@ -42,5 +42,8 @@
     "postcss-cli": "8.x",
     "rimraf": "3.x",
     "uglifyify": "^5.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/linjialiang/emad-loppo-theme-wangdoc/issues"
   }
 }
