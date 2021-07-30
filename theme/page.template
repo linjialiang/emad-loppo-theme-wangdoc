@@ -6,7 +6,6 @@
     <title><%= current_path === '/' ? '' : page_title + ' - ' %><%= site %> - 网道</title>
     <!-- link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" -->
     <link rel="stylesheet" href="<%= relative_root_path %>assets/css/app.min.css">
-    <!-- emad 移除了 font-awesome.css -->
     <!-- <link rel="stylesheet" href="https://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.css"> -->
     <!-- link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css"-->
     <!-- link rel="stylesheet" href="<%= relative_root_path %>assets/css/share.min.css" -->
