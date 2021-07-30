@@ -6,24 +6,30 @@
 </script>
 <script src="<%= relative_root_path %>assets/js/app.js"></script>
 
+<!-- 谷歌全球网站标签 -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111269443-1"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111269443-1"></script> -->
 <script>
+  /**
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-111269443-1');
+  */
 </script>
 
 <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?5eec262881855af3dede6a71234571f6";
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
-})();
+  /*
+  //百度站长工具
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?5eec262881855af3dede6a71234571f6";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  */
 </script>
 
 <% if (typeof hasComments === 'undefined' || !hasComments) { %>
@@ -41,12 +47,13 @@ this.page.url = url;  // Replace PAGE_URL with your page's canonical URL variabl
 this.page.identifier = l.pathname; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
+/*
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
 s.src = 'https://wangdoc-<%= id %>.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
-})();
+})();*/
 </script>
 <% } %>
 
