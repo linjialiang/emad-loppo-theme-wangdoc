@@ -28,15 +28,6 @@
       <p>分享本文 <span class="social-share"></span></p>
     </div>
   </div>
-  <style>
-    .emad-aside-right{
-      position: fixed;
-      top: 100px;
-      right: 50px;
-      max-width: 350px;
-    }
-
-  </style>
   <div class="column is-3 is-offset-1 emad-aside-right">
     <% include chapters %>
   </div>
