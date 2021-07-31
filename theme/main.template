@@ -25,10 +25,10 @@
     <% include pre-next %>
     <div class="page-info is-size-5-widescreen">
       <p>本教程采用<a href="https://creativecommons.org/licenses/by-sa/3.0/deed.zh" target="_blank">知识共享 署名-相同方式共享 3.0协议</a>。</p>
-      <p>分享本文 <span class="social-share"></span></p>
+      <!-- <p>分享本文 <span class="social-share"></span></p> -->
     </div>
   </div>
-  <div class="column is-3 is-offset-1 emad-aside-right">
+  <div class="column is-3 is-offset-1">
     <% include chapters %>
   </div>
 </div>
