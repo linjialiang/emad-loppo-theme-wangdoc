@@ -53,18 +53,18 @@
   <ul class="menu-list">
     <% if ((!isHomepage) && current_path.substr(-1) !== '/') { %>
     <li>
-      <a href="https://raw.githubusercontent.com/linjialiang/<%= id %>-tutorial/master/docs/<%= current_path %>" target="_blank">
+      <a href="https://raw.githubusercontent.com/wangdoc/<%= id %>-tutorial/master/docs/<%= current_path %>" target="_blank">
       <span class="icon"></span><i class="fa fa-code" aria-hidden="true" style="width: 14px;"></i>&nbsp;本文源码
       </a>
     </li>
     <% } %>
     <li>
-      <a href="https://github.com/linjialiang/<%= id %>-tutorial" target="_blank">
+      <a href="https://github.com/wangdoc/<%= id %>-tutorial" target="_blank">
       <span class="icon"></span><i class="fa fa-hdd-o" aria-hidden="true" style="width: 14px;"></i>&nbsp;代码仓库
       </a>
     </li>
     <li>
-      <a href="https://github.com/linjialiang/<%= id %>-tutorial/issues" target="_blank">
+      <a href="https://github.com/wangdoc/<%= id %>-tutorial/issues" target="_blank">
       <span class="icon"></span><i class="fa fa-flag-o" aria-hidden="true" style="width: 14px;"></i>&nbsp;反馈
       </a>
     </li>
