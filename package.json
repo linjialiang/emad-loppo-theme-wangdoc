@@ -1,6 +1,6 @@
 {
   "name": "emad-loppo-theme-wangdoc",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "a theme of Loppo used by Wangdoc",
   "main": "index.js",
   "scripts": {
@@ -24,10 +24,10 @@
     "theme",
     "template"
   ],
-  "homepage": "https://gitee.com/linjialiang/loppo-theme-wangdoc",
+  "homepage": "https://gitee.com/linjialiang/emad-loppo-theme-wangdoc",
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/linjialiang/loppo-theme-wangdoc.git"
+    "url": "https://gitee.com/linjialiang/emad-loppo-theme-wangdoc.git"
   },
   "author": "linjialiang",
   "license": "MIT",
