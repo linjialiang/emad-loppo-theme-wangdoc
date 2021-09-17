@@ -1,5 +1,5 @@
 {
-  "name": "loppo-theme-wangdoc",
+  "name": "emad-loppo-theme-wangdoc",
   "version": "0.6.1",
   "description": "a theme of Loppo used by Wangdoc",
   "main": "index.js",
@@ -24,12 +24,12 @@
     "theme",
     "template"
   ],
-  "homepage": "https://github.com/wangdoc/loppo-theme-wangdoc",
+  "homepage": "https://gitee.com/wangdoc/loppo-theme-wangdoc",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wangdoc/loppo-theme-wangdoc.git"
+    "url": "https://gitee.com/wangdoc/loppo-theme-wangdoc.git"
   },
-  "author": "Ruan Yifeng",
+  "author": "linjialiang",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.3.4",
